@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/day_button"
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    android:minWidth="0dp"
+    app:iconPadding="4dp"
+    android:layout_marginEnd="8dp"
+    android:text="@+id/tvDayNumber"
+    android:contentDescription="@string/day_button_desc"
+    android:paddingHorizontal="16dp"
+    app:cornerRadius="16dp"
+    app:strokeColor="@color/secondary"
+    app:strokeWidth="1dp"
+    app:rippleColor="@color/primary_container"
+    style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>

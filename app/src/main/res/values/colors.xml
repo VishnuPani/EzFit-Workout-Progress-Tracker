@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catppuccin Latte Color Scheme for Light Mode -->
+    <!-- Primary Colors: Mauve -->
+    <color name="primary">#8839EF</color>           <!-- Accent Mauve -->
+    <color name="on_primary">#FFFFFF</color>          <!-- Text on primary -->
+    <color name="primary_container">#E0D0FF</color>   <!-- Lighter mauve for container -->
+    <color name="on_primary_container">#21005E</color>  <!-- Dark contrast for container text -->
+
+    <!-- Secondary Colors: Green -->
+    <color name="secondary">#40A02B</color>           <!-- Accent Green -->
+    <color name="on_secondary">#FFFFFF</color>          <!-- Text on secondary -->
+    <color name="secondary_container">#CCE5C4</color>   <!-- Lighter green container -->
+    <color name="on_secondary_container">#0D3A0D</color> <!-- Dark contrast -->
+
+    <!-- Tertiary Colors: Peach -->
+    <color name="tertiary">#FE640B</color>            <!-- Accent Peach -->
+    <color name="on_tertiary">#FFFFFF</color>           <!-- Text on tertiary -->
+    <color name="tertiary_container">#FFE0C2</color>    <!-- Light peach container -->
+    <color name="on_tertiary_container">#4D2700</color>   <!-- Dark contrast -->
+
+    <!-- Surface Colors -->
+    <color name="surface">#EFF1F5</color>               <!-- Latte Base -->
+    <color name="on_surface">#4C4F69</color>            <!-- Latte text -->
+    <color name="surface_variant">#E6E9EF</color>       <!-- Light surface variant -->
+    <color name="on_surface_variant">#6C6F85</color>      <!-- Subtext -->
+
+    <!-- Error Colors -->
+    <color name="error">#D20F39</color>                 <!-- Error Red -->
+    <color name="on_error">#FFFFFF</color>
+    <color name="error_container">#FFD1D9</color>
+    <color name="on_error_container">#410002</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_line_primary">#8839EF</color>
+    <color name="chart_fill_primary">#E0D0FF</color>
+
+    <!-- Selected Item Background (10% opacity of primary) -->
+    <color name="selected_item_background">#1A8839EF</color>
+
+    <!-- Outline (10% opacity of on_surface_variant) -->
+    <color name="outline">#1A6C6F85</color>
+</resources>

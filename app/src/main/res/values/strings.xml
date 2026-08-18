@@ -1,0 +1,92 @@
+<resources>
+    <!-- Application Name -->
+    <string name="app_name">EZ Fit</string>
+
+    <!-- Navigation -->
+    <string name="title_home">Home</string>
+    <string name="title_workout">Workout</string>
+    <string name="title_progress">Progress</string>
+
+    <!-- Common Labels -->
+    <string name="label_sets">Sets</string>
+    <string name="label_reps">Reps</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_day">Day</string>
+    <string name="label_exercise">Exercise</string>
+    <string name="label_muscle_group">Muscle Group</string>
+    <string name="label_equipment">Equipment</string>
+
+    <!-- Buttons -->
+    <string name="action_save">Save</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_complete">Complete</string>
+    <string name="action_create">Create</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_split">Delete Split</string>
+
+
+
+    <!-- Workout Flow -->
+    <string name="btn_finish_workout">Finish Workout</string>
+    <string name="exercise_details_format">%d sets × %d reps @ %d lbs</string>
+    <string name="logged">Logged</string>
+    <string name="set_number">Set %d</string>
+    <string name="invalid_numbers">Enter valid numbers</string>
+
+    <!-- Placeholders & Hints -->
+    <string name="hint_exercise_name">Exercise name</string>
+    <string name="hint_split_name">Split name</string>
+    <string name="day_name_format">Day %d</string>
+
+    <!-- Messages -->
+    <string name="msg_select_exercise">Select Exercise</string>
+    <string name="msg_no_exercises">No exercises found</string>
+    <string name="msg_no_history">No workout history yet</string>
+    <string name="msg_no_splits">No workout splits available</string>
+    <string name="prebuilt_splits">Pre-built Workout Splits</string>
+    <string name="custom_splits">Your Custom Splits</string>
+    <string name="no_prebuilt_splits">No pre-built splits available</string>
+    <string name="no_custom_splits">Create your first custom split!</string>
+
+    <!-- Errors -->
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_number">Enter valid numbers</string>
+    <string name="error_min_value">Minimum value is %d</string>
+
+    <!-- Units -->
+    <string name="unit_lbs">lbs</string>
+    <string name="unit_kgs">kgs</string>
+    <string name="unit_reps">reps</string>
+
+    <!-- Progress Screen -->
+    <string name="title_progress_overview">Progress Overview</string>
+    <string name="chart_label_weight">Weight Progress</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_title_new_exercise">New Exercise</string>
+    <string name="dialog_title_edit_exercise">Edit Exercise</string>
+    <string name="dialog_title_confirm_delete">Delete Exercise?</string>
+    <string name="fab_create_split_desc">Create new workout split</string>
+    <string name="search_exercises">Search exercises</string>
+    <string name="split_name">Split Name</string>
+    <string name="add_day">Add Day</string>
+    <string name="save_split">Save Split</string>
+    <string name="confirm_selection">Confirm (%d selected)</string>
+    <plurals name="confirm_selection_count">
+        <item quantity="one">Confirm %d selection</item>
+        <item quantity="other">Confirm %d selections</item>
+    </plurals>
+
+    <!-- Accessibility -->
+    <string name="expand_button_desc">Expand exercise details</string>
+    <string name="collapse_button_desc">Collapse exercise details</string>
+    <string name="day_button_desc">Select workout day</string>
+
+
+
+
+
+</resources>

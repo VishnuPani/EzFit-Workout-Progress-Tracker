@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_container</item>
+        <item name="colorAccent">@color/secondary</item>
+
+        <!-- Material Components Button Styles -->
+        <item name="materialButtonStyle">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+        <item name="buttonStyle">@style/TextAppearance.MaterialComponents.Button</item>
+    </style>
+
+    <!-- Button Text Appearance -->
+    <style name="TextAppearance.MaterialComponents.Button" parent="TextAppearance.AppCompat.Button">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textColor">@color/on_secondary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:letterSpacing">0.1</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <!-- Outlined Button Style -->
+    <style name="Widget.MaterialComponents.Button.OutlinedButton" parent="Widget.MaterialComponents.Button">
+        <item name="strokeColor">@color/secondary</item>
+        <item name="strokeWidth">@dimen/button_stroke_width</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+    </style>
+    <style name="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="hintEnabled">true</item>
+        <item name="boxCollapsedPaddingTop">8dp</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeColor">@color/outline</item>
+    </style>
+</resources>
